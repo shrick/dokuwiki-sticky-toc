@@ -18,5 +18,5 @@ Should work for most DokuWiki sites.
 
 #TODO
 - [ ] dokuwiki test
-- [ ] module pattern
+- [x] module pattern
 
