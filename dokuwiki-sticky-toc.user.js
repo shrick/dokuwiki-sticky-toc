@@ -9,6 +9,12 @@
 
 // make changes after document is loaded
 window.addEventListener('load', function() {
+
+    // quit if current page is not a DokuWiki
+    if (!document.evaluate(
+            "//meta[@name='generator' and @content='DokuWiki']",
+            document, null, XPathResult.ANY_TYPE, null).iterateNext()
+        ) return;
     
     var toc = document.getElementById('dw__toc');    
     var toc_inside = toc.getElementsByTagName("div")[0];

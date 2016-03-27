@@ -16,7 +16,3 @@ E.g. Greasemonkey, if user scripts is not directly supported by your web browser
 
 Should work for most DokuWiki sites.
 
-#TODO
-- [ ] dokuwiki test
-- [x] module pattern
-
